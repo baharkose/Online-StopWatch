@@ -73,11 +73,13 @@ button{
     color: gray;
     font-size: 0.7rem;
     position: absolute;
+    left: 18px;
     
 }
 .minute{
     position: relative;
     padding: 0 10px;
+    
     
 }
 .minute::before{
@@ -86,6 +88,8 @@ button{
     color: gray;
     font-size: 0.7rem;
     position: absolute;
+    left: 18px;
+    left: px;
     
 }
 .second{
@@ -99,6 +103,7 @@ button{
     color: gray;
     font-size: 0.7rem;
     position: absolute;
+    left: 18px;
 }
 .splite-second{
     position: relative;
@@ -113,6 +118,7 @@ button{
     color: gray;
     font-size: 0.7rem;
     position: absolute;
+    left: -5px;
 }
 
 .start,
