@@ -47,7 +47,8 @@
 
 .buttons{
     display: flex;
-    gap: 1rem;
+    gap: 1.3rem;
+    margin-top: 1rem;
     
 }
 
@@ -114,15 +115,46 @@ button{
     position: absolute;
 }
 
+.start,
+.stop,
+.clear{
+
+    cursor: pointer;
+    display:flex ;
+    flex-direction: column;
+    font-size: 1rem;
+    font-weight: bold;
+    align-items: center;
+    position: relative;
+}
+
+.start::after{
+    position: absolute;
+    content: "START";
+    bottom:12px ;
+    font-size: 0.8rem;
+    color:white;
+    left: 25px;
+    font-weight: bolder;
+}
+.stop::after{
+    position: absolute;
+    content: "STOP";
+    bottom:11px ;
+    font-size: 0.8rem;
+    color:white;
+    left: 20px;
+    font-weight: bolder;
+}
+.clear::after{
+    position: absolute;
+    content: "CLEAR";
+    bottom:12px ;
+    font-size: 0.8rem;
+    color:white;
+    left: 9px;
+    font-weight: bolder;
+}
 
 
-#start{
-    background-color: green;
-}
-#stop{
-    background-color: red;
-}
-#clear{
-    background-color: blue;
-}
 
