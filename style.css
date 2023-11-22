@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    margin-top: 4rem;
+}
+
+.timer-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+    border: 7px solid black;
+    border-radius: 8px;
+    height: 350px;
+}
+
+.image{
+   width: 300px;
+   position: absolute;
+   top: -140px;
+   left: 27px;
+}
+
+.time{
+    display: flex;
+    gap: 1rem;
+}
+
+.buttons{
+    display: flex;
+    gap: 1rem;
+}
