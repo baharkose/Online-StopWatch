@@ -13,4 +13,7 @@ for stopWatch app, it is used interval function.
 </div>
 
 ****
+
+<div style="text-align:center">
 ![image](https://github.com/baharkose/Online-StopWatch/assets/110201916/77a58a6d-3c6d-4253-8ee9-22b02be53ae8)
+</div>
