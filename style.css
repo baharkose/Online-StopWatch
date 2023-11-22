@@ -63,6 +63,9 @@ button{
 
 .hour{
     position: relative;
+    width: 20px;
+    padding: 0 5px;
+    
 }
 .hour::before{
     content: "HOUR";
@@ -70,10 +73,12 @@ button{
     color: gray;
     font-size: 0.7rem;
     position: absolute;
-    left: 15px;
+    
 }
 .minute{
     position: relative;
+    padding: 0 10px;
+    
 }
 .minute::before{
     content: "MINUTE";
@@ -81,10 +86,12 @@ button{
     color: gray;
     font-size: 0.7rem;
     position: absolute;
-    left: 7px;
+    
 }
 .second{
     position: relative;
+    padding: 0 10px;
+    
 }
 .second::before{
     content: "SECOND";
@@ -92,10 +99,11 @@ button{
     color: gray;
     font-size: 0.7rem;
     position: absolute;
-    left: 6px;
 }
 .splite-second{
     position: relative;
+    padding: 0 12px;
+    text-align: center;
 }
 .splite-second::before{
     content: "CENTISECOND";
@@ -104,7 +112,6 @@ button{
     color: gray;
     font-size: 0.7rem;
     position: absolute;
-    left: -2px;
 }
 
 
