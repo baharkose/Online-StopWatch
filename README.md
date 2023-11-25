@@ -1,6 +1,6 @@
 # Online-StopWatch
 
-This project is about online stopwatch. It is designed for kids and cat lovers. For the stopWatch app, it is used interval function.
+This project is about online stopwatch.. It is designed for kids and cat lovers. For the stopWatch app, it is used interval function.
 
 
 <div align=center>
